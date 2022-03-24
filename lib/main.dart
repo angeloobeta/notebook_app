@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
               case ConnectionState.done:
                 return const Text("Done");
               default:
-                return const Text("Loading.......!");
+                return const Text("Loading........!");
             }
           }),
     );
